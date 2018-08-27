@@ -41,7 +41,7 @@ public class Criteria<T> implements Specification<T> {
         }
 
         if (this.orderList != null){
-            List<Order> orderList = new ArrayList<>();
+            List<javax.persistence.criteria.Order> orderList = new ArrayList<>();
             for (Order order : this.orderList){
                 orderList.add(order.toJpaOrder(root));
             }

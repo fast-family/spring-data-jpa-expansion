@@ -25,4 +25,9 @@ public abstract class BaseEntity<ID extends Serializable> implements Persistable
     public ID generator() {
         return (ID) IDGenerator.UUID.generator();
     }
+
+    @Override
+    public ID getId() {
+        return null;
+    }
 }
