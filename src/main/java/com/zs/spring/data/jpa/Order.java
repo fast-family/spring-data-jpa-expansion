@@ -4,7 +4,8 @@ package com.zs.spring.data.jpa;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.jpa.criteria.OrderImpl;
+import org.hibernate.query.criteria.internal.OrderImpl;
+
 
 import javax.persistence.criteria.Path;
 import javax.persistence.criteria.Root;
