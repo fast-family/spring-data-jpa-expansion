@@ -22,4 +22,6 @@ public class BaseSimpleJpaRepository<T extends BaseEntity,ID extends Serializabl
     }
 
 
+
+
 }
